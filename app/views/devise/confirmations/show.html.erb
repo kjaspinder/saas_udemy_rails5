@@ -1,4 +1,4 @@
-<h1><%= Create Password %></h1>
+<h1>Create Password</h1>
 
 <%= form_for(resource, as: resource_name, url: update_user_confirmation_path, 
                         html: { method: :put , :class => "form login"}) do |f| %>
@@ -14,5 +14,5 @@
     <%= f.password_field :password_confirmation, :class => "form-control" %>
   </div>
 
-  <%= f.submit 'Create Password', class: "btn btn-primary" %>%
+  <%= f.submit 'Create Password', class: "btn btn-primary" %>
 <% end %>
